@@ -4,7 +4,7 @@
       "branches": 16,
       "branches_missing": 2,
       "branches_partial": 0,
-      "coverage": 46.666666666666664,
+      "coverage": 55.55555555555556,
       "lines": [
         3,
         20,
@@ -53,10 +53,6 @@
         93
       ],
       "lines_not_covered": [
-        50,
-        51,
-        52,
-        54,
         60,
         61,
         62,
@@ -80,10 +76,10 @@
       ],
       "module": "resistor",
       "sum_lines": 45,
-      "sum_lines_not_covered": 24
+      "sum_lines_not_covered": 20
     }
   ],
   "overall_branch_coverage": 87.5,
   "overall_branch_partial_coverage": 100.0,
-  "overall_coverage": 46.666666666666664
+  "overall_coverage": 55.55555555555556
 }

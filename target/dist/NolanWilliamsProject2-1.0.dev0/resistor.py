@@ -91,4 +91,3 @@ def decodeResistance(colors):
     resistance['formatted'] = createFormattedResistanceString(colors)
 
     return resistance
-

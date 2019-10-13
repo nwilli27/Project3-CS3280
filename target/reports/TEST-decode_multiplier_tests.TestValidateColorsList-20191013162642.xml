@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="decode_multiplier_tests.py" name="decode_multiplier_tests.TestValidateColorsList-20191013162642" skipped="0" tests="1" time="0.004" timestamp="2019-10-13T16:26:42">
+	<testcase classname="decode_multiplier_tests.TestValidateColorsList" file="src/unittest/python/decode_multiplier_tests.py" line="8" name="testGetMultiplierBlackBand" time="0.004" timestamp="2019-10-13T16:26:42">
+		<error message="name 'assertEquals' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/decode_multiplier_tests.py", line 10, in testGetMultiplierBlackBand
+    assertEquals(1, multiplier[0])
+NameError: name 'assertEquals' is not defined
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
