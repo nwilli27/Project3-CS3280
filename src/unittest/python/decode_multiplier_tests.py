@@ -2,7 +2,7 @@
 import unittest
 from resistor import decodeMultiplier
 
-class TestValidateColorsList(unittest.TestCase):
+class TestDecodeMultiplier(unittest.TestCase):
     
     def testGetMultiplierBlackBand(self):
         multiplier = decodeMultiplier(["brown", "red", "black", "brown"])

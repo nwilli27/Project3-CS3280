@@ -1,6 +1,6 @@
 
 
-resistor_colors = { 'black':  {'digit': 0, 'multiplier': {'number': 1,    'prefix': "" } },
+resistor_colors = { 'black':  {            'multiplier': {'number': 1,    'prefix': "" } },
                     'brown':  {'digit': 1, 'multiplier': {'number': 10,   'prefix': "" },  'tolerance': 1},
                     'red':    {'digit': 2, 'multiplier': {'number': 100,  'prefix': "" },  'tolerance': 2},
                     'orange': {'digit': 3, 'multiplier': {'number': 1,    'prefix': "K"} },
@@ -55,7 +55,7 @@ def decodeMultiplier(colors):
   
     
 # Returns a string of all significant figures in [colors] combined together.
-def decodeSignificantFigure(colors):
+def decodeSignificantFigures(colors):
     
     significant_bands = colors[0:-2]   
     number = '';
@@ -68,7 +68,7 @@ def decodeSignificantFigure(colors):
 # Returns a formatted Resistance string of [colors] list of bands.
 def createFormattedResistanceString(colors):
     
-    significant_figures = decodeSignificantFigure(colors)
+    significant_figures = decodeSignificantFigures(colors)
     multiplier = decodeMultiplier(colors)
     resistance_value = int(significant_figures) * multiplier[0]
     multiplier_prefix = multiplier[1]
@@ -82,7 +82,7 @@ def createFormattedResistanceString(colors):
 def decodeResistance(colors):
     
     resistance = {}
-    significant_figures = decodeSignificantFigure(colors)
+    significant_figures = decodeSignificantFigures(colors)
     multiplier = decodeMultiplier(colors)
     
     resistance['value'] = int(significant_figures) * multiplier[0]

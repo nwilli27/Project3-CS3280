@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="decode_tolerance_tests.py" name="decode_tolerance_tests.TestDecodeTolerance-20191013164023" skipped="0" tests="9" time="0.001" timestamp="2019-10-13T16:40:23">
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="16" name="testGetToleranceBlueBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="7" name="testGetToleranceBrownBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="25" name="testGetToleranceGoldBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="13" name="testGetToleranceGreenBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="22" name="testGetToleranceGreyBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="31" name="testGetToleranceNoneBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="10" name="testGetToleranceRedBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="28" name="testGetToleranceSilverBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_tolerance_tests.TestDecodeTolerance" file="src/unittest/python/decode_tolerance_tests.py" line="19" name="testGetToleranceVioletBand" time="0.000" timestamp="2019-10-13T16:40:23">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

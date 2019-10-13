@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="formatted_resistance_string_tests.py" name="formatted_resistance_string_tests.TestCreateFormattedResistanceString-20191013165636" skipped="0" tests="2" time="0.001" timestamp="2019-10-13T16:56:36">
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="7" name="testCreateStringLowMultiplierLowTolerance4Band" time="0.000" timestamp="2019-10-13T16:56:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="11" name="testCreateStringLowMultiplierLowTolerance5Band" time="0.000" timestamp="2019-10-13T16:56:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

@@ -35,6 +35,11 @@ class TestValidateColorsList(unittest.TestCase):
             
     #INVALID significant digit bands
     
+    def testBandWithNoSignificantDigitBlack(self):
+        listOfColors = ["black", "red", "green", "black"]
+        with self.assertRaises(ValueError) as error: validateColorsList(listOfColors)
+        self.assertTrue("black does not contain a significant figure digit" in str(error.exception)) 
+    
     def testBandWithNoSignificantDigitGold(self):
         listOfColors = ["gold", "red", "green", "black"]
         with self.assertRaises(ValueError) as error: validateColorsList(listOfColors)

@@ -2,9 +2,9 @@
   "module_names": [
     {
       "branches": 16,
-      "branches_missing": 2,
+      "branches_missing": 0,
       "branches_partial": 0,
-      "coverage": 55.55555555555556,
+      "coverage": 82.22222222222223,
       "lines": [
         3,
         20,
@@ -53,18 +53,6 @@
         93
       ],
       "lines_not_covered": [
-        60,
-        61,
-        62,
-        63,
-        65,
-        71,
-        72,
-        73,
-        74,
-        75,
-        77,
-        78,
         84,
         85,
         86,
@@ -76,10 +64,10 @@
       ],
       "module": "resistor",
       "sum_lines": 45,
-      "sum_lines_not_covered": 20
+      "sum_lines_not_covered": 8
     }
   ],
-  "overall_branch_coverage": 87.5,
+  "overall_branch_coverage": 100.0,
   "overall_branch_partial_coverage": 100.0,
-  "overall_coverage": 55.55555555555556
+  "overall_coverage": 82.22222222222223
 }

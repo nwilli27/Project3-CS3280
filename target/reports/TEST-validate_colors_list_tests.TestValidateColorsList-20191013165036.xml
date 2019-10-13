@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="validate_colors_list_tests.py" name="validate_colors_list_tests.TestValidateColorsList-20191013165036" skipped="0" tests="14" time="0.003" timestamp="2019-10-13T16:50:36">
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="19" name="test3ColorBands" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="9" name="test4ValidColorsBands" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="13" name="test5ValidColorBands" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="24" name="test6ColorBands" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="38" name="testBandWithNoSignificantDigitBlack" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="43" name="testBandWithNoSignificantDigitGold" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="53" name="testBandWithNoSignificantDigitNone" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="48" name="testBandWithNoSignificantDigitSilver" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="31" name="testInvalidColorLimegreen" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="60" name="testInvalidMultiplierBandNone" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="67" name="testInvalidToleranceBandBlack" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="72" name="testInvalidToleranceBandOrange" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="82" name="testInvalidToleranceBandWhite" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="77" name="testInvalidToleranceBandYellow" time="0.000" timestamp="2019-10-13T16:50:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

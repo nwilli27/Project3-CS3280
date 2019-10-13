@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="formatted_resistance_string_tests.py" name="formatted_resistance_string_tests.TestCreateFormattedResistanceString-20191013165036" skipped="0" tests="1" time="0.001" timestamp="2019-10-13T16:50:36">
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="7" name="testCreateStringWith4ValidBands" time="0.001" timestamp="2019-10-13T16:50:36">
+		<error message="assertEqual() missing 1 required positional argument: 'second'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/formatted_resistance_string_tests.py", line 9, in testCreateStringWith4ValidBands
+    self.assertEquals("12 Kohms +/- 0.5%")
+  File "/usr/lib/python3.6/unittest/case.py", line 1321, in deprecated_func
+    return original_func(*args, **kwargs)
+TypeError: assertEqual() missing 1 required positional argument: 'second'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

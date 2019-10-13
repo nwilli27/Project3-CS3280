@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" file="decode_significant_figure_tests.py" name="decode_significant_figure_tests.TestDecodeSignificantFigures-20191013164023" skipped="0" tests="1" time="0.000" timestamp="2019-10-13T16:40:23">
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="7" name="testGetSignificantFiguresOf5BandResistor" time="0.000" timestamp="2019-10-13T16:40:23">
+		<error message="'digit'" type="KeyError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 8, in testGetSignificantFiguresOf5BandResistor
+    self.assertEquals("012", decodeSignificantFigures(["black", "brown", "red", "green", "violet"]))
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/main/python/resistor.py", line 63, in decodeSignificantFigures
+    number += str(resistor_colors[color]['digit'])
+KeyError: 'digit'
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
