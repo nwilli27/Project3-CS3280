@@ -33,7 +33,7 @@ class TestValidateColorsList(unittest.TestCase):
         with self.assertRaises(ValueError) as error: validateColorsList(listOfColors)
         self.assertTrue("limegreen is not a valid resistor color band" in str(error.exception))      
             
-    #INVALID significant digit band
+    #INVALID significant digit bands
     
     def testBandWithNoSignificantDigitGold(self):
         listOfColors = ["gold", "red", "green", "black"]
@@ -57,7 +57,7 @@ class TestValidateColorsList(unittest.TestCase):
         with self.assertRaises(ValueError) as error: validateColorsList(listOfColors)
         self.assertTrue("none does not contain a multiplier" in str(error.exception))
         
-    #INVALID tolerance band
+    #INVALID tolerance bands
     
     def testInvalidToleranceBandBlack(self):
         listOfColors = ["brown", "red", "orange", "black"]
