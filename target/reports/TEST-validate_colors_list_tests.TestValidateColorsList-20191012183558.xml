@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="2" failures="0" file="validate_colors_list_tests.py" name="validate_colors_list_tests.TestValidateColorsList-20191012183558" skipped="0" tests="2" time="0.008" timestamp="2019-10-12T18:35:58">
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="11" name="testInvalidNumberOfBands3" time="0.008" timestamp="2019-10-12T18:35:58">
+		<error message="There should only be 4 or 5 bands" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/validate_colors_list_tests.py", line 13, in testInvalidNumberOfBands3
+    self.assertRaises(validateColorsList(listOfColors), ValueError)
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/main/python/resistor.py", line 8, in validateColorsList
+    raise ValueError('There should only be 4 or 5 bands')
+ValueError: There should only be 4 or 5 bands
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="7" name="testValidColors4Bands" time="0.001" timestamp="2019-10-12T18:35:58">
+		<error message="assertRaises() arg 1 must be an exception type or tuple of exception types" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/validate_colors_list_tests.py", line 9, in testValidColors4Bands
+    self.failUnlessRaises(validateColorsList(listOfColors), ValueError)
+  File "/usr/lib/python3.6/unittest/case.py", line 1321, in deprecated_func
+    return original_func(*args, **kwargs)
+  File "/usr/lib/python3.6/unittest/case.py", line 733, in assertRaises
+    return context.handle('assertRaises', args, kwargs)
+  File "/usr/lib/python3.6/unittest/case.py", line 159, in handle
+    (name, self._base_type_str))
+TypeError: assertRaises() arg 1 must be an exception type or tuple of exception types
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

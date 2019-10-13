@@ -1,0 +1,8 @@
+resistor.py
+setup.py
+NolanWilliamsProject2.egg-info/PKG-INFO
+NolanWilliamsProject2.egg-info/SOURCES.txt
+NolanWilliamsProject2.egg-info/dependency_links.txt
+NolanWilliamsProject2.egg-info/namespace_packages.txt
+NolanWilliamsProject2.egg-info/top_level.txt
+NolanWilliamsProject2.egg-info/zip-safe

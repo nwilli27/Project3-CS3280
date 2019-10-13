@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="1" file="validate_colors_list_tests.py" name="validate_colors_list_tests.TestValidateColorsList-20191012185537" skipped="0" tests="2" time="0.005" timestamp="2019-10-12T18:55:37">
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="7" name="testValidColors4Bands" time="0.000" timestamp="2019-10-12T18:55:37">
+		<failure message="ValueError not raised" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/validate_colors_list_tests.py", line 10, in testValidColors4Bands
+    test = ""
+AssertionError: ValueError not raised
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="12" name="testInvalidNumberOf3Bands" time="0.005" timestamp="2019-10-12T18:55:37">
+		<error message="There should only be 4 or 5 bands" type="ValueError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/validate_colors_list_tests.py", line 14, in testInvalidNumberOf3Bands
+    with self.assertRaises(ValueError, validateColorsList(listOfColors)):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/main/python/resistor.py", line 8, in validateColorsList
+    raise ValueError('There should only be 4 or 5 bands')
+ValueError: There should only be 4 or 5 bands
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

@@ -1,0 +1,36 @@
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+copying resistor.py -> build/lib
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/resistor.py -> build/bdist.linux-x86_64/wheel
+running install_egg_info
+running egg_info
+writing NolanWilliamsProject2.egg-info/PKG-INFO
+writing dependency_links to NolanWilliamsProject2.egg-info/dependency_links.txt
+writing namespace_packages to NolanWilliamsProject2.egg-info/namespace_packages.txt
+writing top-level names to NolanWilliamsProject2.egg-info/top_level.txt
+reading manifest file 'NolanWilliamsProject2.egg-info/SOURCES.txt'
+writing manifest file 'NolanWilliamsProject2.egg-info/SOURCES.txt'
+Copying NolanWilliamsProject2.egg-info to build/bdist.linux-x86_64/wheel/NolanWilliamsProject2-1.0.dev0.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/NolanWilliamsProject2-1.0.dev0.dist-info/WHEEL
+creating 'dist/NolanWilliamsProject2-1.0.dev0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'resistor.py'
+adding 'NolanWilliamsProject2-1.0.dev0.dist-info/METADATA'
+adding 'NolanWilliamsProject2-1.0.dev0.dist-info/WHEEL'
+adding 'NolanWilliamsProject2-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'NolanWilliamsProject2-1.0.dev0.dist-info/top_level.txt'
+adding 'NolanWilliamsProject2-1.0.dev0.dist-info/zip-safe'
+adding 'NolanWilliamsProject2-1.0.dev0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel

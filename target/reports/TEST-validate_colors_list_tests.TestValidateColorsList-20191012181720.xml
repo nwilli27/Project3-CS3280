@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="validate_colors_list_tests.py" name="validate_colors_list_tests.TestValidateColorsList-20191012181720" skipped="0" tests="1" time="0.005" timestamp="2019-10-12T18:17:20">
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="7" name="testValidColors4Bands" time="0.005" timestamp="2019-10-12T18:17:20">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

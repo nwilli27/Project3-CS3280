@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="validate_colors_list_tests.py" name="validate_colors_list_tests.TestValidateColorsList-20191012192936" skipped="0" tests="6" time="0.008" timestamp="2019-10-12T19:29:36">
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="19" name="test3ColorBands" time="0.007" timestamp="2019-10-12T19:29:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="9" name="test4ColorsBands" time="0.000" timestamp="2019-10-12T19:29:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="13" name="test5ColorBands" time="0.000" timestamp="2019-10-12T19:29:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="35" name="test5OtherValidColors" time="0.000" timestamp="2019-10-12T19:29:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="31" name="test5ValidColors" time="0.000" timestamp="2019-10-12T19:29:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="validate_colors_list_tests.TestValidateColorsList" file="src/unittest/python/validate_colors_list_tests.py" line="41" name="test6ColorBands" time="0.000" timestamp="2019-10-12T19:29:36">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
