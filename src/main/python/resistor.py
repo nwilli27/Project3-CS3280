@@ -1,18 +1,18 @@
 
 
 resistor_colors = { 'black':  {            'multiplier': {'number': 1,    'prefix': "" } },
-                    'brown':  {'digit': 1, 'multiplier': {'number': 10,   'prefix': "" },  'tolerance': 1},
-                    'red':    {'digit': 2, 'multiplier': {'number': 100,  'prefix': "" },  'tolerance': 2},
+                    'brown':  {'digit': 1, 'multiplier': {'number': 10,   'prefix': "" },  'tolerance': 1   },
+                    'red':    {'digit': 2, 'multiplier': {'number': 100,  'prefix': "" },  'tolerance': 2   },
                     'orange': {'digit': 3, 'multiplier': {'number': 1,    'prefix': "K"} },
                     'yellow': {'digit': 4, 'multiplier': {'number': 10,   'prefix': "K"} },
-                    'green':  {'digit': 5, 'multiplier': {'number': 100,  'prefix': "K"},  'tolerance': 0.5},
+                    'green':  {'digit': 5, 'multiplier': {'number': 100,  'prefix': "K"},  'tolerance': 0.5 },
                     'blue':   {'digit': 6, 'multiplier': {'number': 1,    'prefix': "M"},  'tolerance': 0.25},
-                    'violet': {'digit': 7, 'multiplier': {'number': 10,   'prefix': "M"},  'tolerance': 0.1},
+                    'violet': {'digit': 7, 'multiplier': {'number': 10,   'prefix': "M"},  'tolerance': 0.1 },
                     'grey':   {'digit': 8, 'multiplier': {'number': 100,  'prefix': "M"},  'tolerance': 0.05},
                     'white':  {'digit': 9, 'multiplier': {'number': 1,    'prefix': "G"} },
-                    'gold':   {            'multiplier': {'number': 0.1,  'prefix': "" },  'tolerance': 5},
-                    'silver': {            'multiplier': {'number': 0.01, 'prefix': "" },  'tolerance': 10},
-                    'none':   {                                                            'tolerance': 20}   
+                    'gold':   {            'multiplier': {'number': 0.1,  'prefix': "" },  'tolerance': 5   },
+                    'silver': {            'multiplier': {'number': 0.01, 'prefix': "" },  'tolerance': 10  },
+                    'none':   {                                                            'tolerance': 20  }   
                 }
 
 

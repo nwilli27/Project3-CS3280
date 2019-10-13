@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="decode_resistance_tests.py" name="decode_resistance_tests.TestDecodeResistance-20191013172110" skipped="0" tests="4" time="0.003" timestamp="2019-10-13T17:21:10">
+	<testcase classname="decode_resistance_tests.TestDecodeResistance" file="src/unittest/python/decode_resistance_tests.py" line="41" name="testDecodeReistanceHighMultiplerAndTolerance4Band" time="0.001" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_resistance_tests.TestDecodeResistance" file="src/unittest/python/decode_resistance_tests.py" line="9" name="testDecodeReistanceLowMultiplerAndTolerance4Band" time="0.001" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_resistance_tests.TestDecodeResistance" file="src/unittest/python/decode_resistance_tests.py" line="16" name="testDecodeReistanceLowMultiplerAndTolerance5Band" time="0.001" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_resistance_tests.TestDecodeResistance" file="src/unittest/python/decode_resistance_tests.py" line="32" name="testDecodeReistanceMediumMultiplerAndTolerance4Band" time="0.001" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

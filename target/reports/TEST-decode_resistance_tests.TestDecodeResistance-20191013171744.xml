@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" file="decode_resistance_tests.py" name="decode_resistance_tests.TestDecodeResistance-20191013171744" skipped="0" tests="2" time="0.001" timestamp="2019-10-13T17:17:44">
+	<testcase classname="decode_resistance_tests.TestDecodeResistance" file="src/unittest/python/decode_resistance_tests.py" line="9" name="testDecodeReistanceLowMultiplerAndTolerance4Band" time="0.000" timestamp="2019-10-13T17:17:44">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_resistance_tests.TestDecodeResistance" file="src/unittest/python/decode_resistance_tests.py" line="16" name="testDecodeReistanceLowMultiplerAndTolerance5Band" time="0.000" timestamp="2019-10-13T17:17:44">
+		<failure message="450 != 123" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Desktop/SystemProgramming/Projects/NolanWilliamsProject2/src/unittest/python/decode_resistance_tests.py", line 18, in testDecodeReistanceLowMultiplerAndTolerance5Band
+    self.assertEquals(450, expected['value'])
+AssertionError: 450 != 123
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

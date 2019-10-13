@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="formatted_resistance_string_tests.py" name="formatted_resistance_string_tests.TestCreateFormattedResistanceString-20191013172110" skipped="0" tests="6" time="0.002" timestamp="2019-10-13T17:21:10">
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="29" name="testCreateStringHighMultiplierHighTolerance4Band" time="0.000" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="33" name="testCreateStringHighMultiplierHighTolerance5Band" time="0.000" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="9" name="testCreateStringLowMultiplierLowTolerance4Band" time="0.000" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="13" name="testCreateStringLowMultiplierLowTolerance5Band" time="0.000" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="19" name="testCreateStringMediumMultiplierMediumTolerance4Band" time="0.000" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="23" name="testCreateStringMediumMultiplierMediumTolerance5Band" time="0.000" timestamp="2019-10-13T17:21:10">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
