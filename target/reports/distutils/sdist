@@ -23,6 +23,7 @@ creating NolanWilliamsProject2-1.0.dev0
 creating NolanWilliamsProject2-1.0.dev0/NolanWilliamsProject2.egg-info
 copying files to NolanWilliamsProject2-1.0.dev0...
 copying resistor.py -> NolanWilliamsProject2-1.0.dev0
+copying service.py -> NolanWilliamsProject2-1.0.dev0
 copying setup.py -> NolanWilliamsProject2-1.0.dev0
 copying NolanWilliamsProject2.egg-info/PKG-INFO -> NolanWilliamsProject2-1.0.dev0/NolanWilliamsProject2.egg-info
 copying NolanWilliamsProject2.egg-info/SOURCES.txt -> NolanWilliamsProject2-1.0.dev0/NolanWilliamsProject2.egg-info
