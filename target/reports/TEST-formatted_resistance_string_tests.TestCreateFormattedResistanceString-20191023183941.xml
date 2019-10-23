@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="formatted_resistance_string_tests.py" name="formatted_resistance_string_tests.TestCreateFormattedResistanceString-20191023183941" skipped="0" tests="9" time="0.003" timestamp="2019-10-23T18:39:41">
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="37" name="testCreateStringHighMultiplierHighTolerance4Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="41" name="testCreateStringHighMultiplierHighTolerance5Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="45" name="testCreateStringHighMultiplierHighToleranceLeadingBlack5Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="9" name="testCreateStringLowMultiplierLowTolerance4Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="13" name="testCreateStringLowMultiplierLowTolerance5Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="17" name="testCreateStringLowMultiplierLowToleranceLeadingBlack5Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="23" name="testCreateStringMediumMultiplierMediumTolerance4Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="27" name="testCreateStringMediumMultiplierMediumTolerance5Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="formatted_resistance_string_tests.TestCreateFormattedResistanceString" file="src/unittest/python/formatted_resistance_string_tests.py" line="31" name="testCreateStringMediumMultiplierMediumToleranceLeadingBlack5Band" time="0.000" timestamp="2019-10-23T18:39:41">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

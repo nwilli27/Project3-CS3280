@@ -4,6 +4,10 @@ from urllib.parse import parse_qs
 from resistor import decodeResistance
 
 class Service(http.server.BaseHTTPRequestHandler):
+    
+    #Gets the url path from the request and parses the resource.
+    #Takes the resource and checks if valid, if so it returns a 
+    # formatted resistance output based on the bands inserted.
     def do_GET(self):
         self.log_message("path: %s", self.path)
         try:
@@ -20,7 +24,6 @@ class Service(http.server.BaseHTTPRequestHandler):
             bandsList = self.formResistanceBandsList(bands)
             self.log_message("built bandsList...")
             
-            self.log_message("About to decode resistance...")
             decoded = decodeResistance(bandsList)
             self.log_message("resistance decoded...")
             body = self.buildResponseBody(decoded)
@@ -34,7 +37,7 @@ class Service(http.server.BaseHTTPRequestHandler):
             
             self.send_error(400, str(e))
 
-
+    #Forms the list of resistance bands based on the given dictionary.
     def formResistanceBandsList(self, bandsDictionary):
         if len(bandsDictionary) == 4:
             return [
@@ -54,7 +57,7 @@ class Service(http.server.BaseHTTPRequestHandler):
         else:
             raise Exception()
 
-
+    #Returns a basic html format with the given resistance as an h1 tag.
     def buildResponseBody(self, decodedJson):
         resistance = decodedJson['formatted']
         return f"""

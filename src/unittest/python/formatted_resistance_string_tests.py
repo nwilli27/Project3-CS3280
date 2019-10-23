@@ -13,6 +13,10 @@ class TestCreateFormattedResistanceString(unittest.TestCase):
     def testCreateStringLowMultiplierLowTolerance5Band(self):
         expected = createFormattedResistanceString(["brown", "red", "orange", "black", "green"])
         self.assertEquals("123 ohms +/- 0.5%", expected)
+
+    def testCreateStringLowMultiplierLowToleranceLeadingBlack5Band(self):
+        expected = createFormattedResistanceString(["black", "red", "orange", "black", "green"])
+        self.assertEquals("23 ohms +/- 0.5%", expected)
         
     #Medium multiplier/tolerance
     
@@ -23,6 +27,10 @@ class TestCreateFormattedResistanceString(unittest.TestCase):
     def testCreateStringMediumMultiplierMediumTolerance5Band(self):
         expected = createFormattedResistanceString(["yellow", "green", "blue", "green", "red"])
         self.assertEquals("45600 Kohms +/- 2%", expected)
+
+    def testCreateStringMediumMultiplierMediumToleranceLeadingBlack5Band(self):
+        expected = createFormattedResistanceString(["black", "green", "blue", "green", "red"])
+        self.assertEquals("5600 Kohms +/- 2%", expected)
         
     #High multiplier/tolerance
     
@@ -33,5 +41,9 @@ class TestCreateFormattedResistanceString(unittest.TestCase):
     def testCreateStringHighMultiplierHighTolerance5Band(self):
         expected = createFormattedResistanceString(["violet", "grey", "white", "grey", "none"])
         self.assertEquals("78900 Mohms +/- 20%", expected)
+
+    def testCreateStringHighMultiplierHighToleranceLeadingBlack5Band(self):
+        expected = createFormattedResistanceString(["black", "grey", "white", "grey", "none"])
+        self.assertEquals("8900 Mohms +/- 20%", expected)
         
     

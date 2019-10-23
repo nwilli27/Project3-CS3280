@@ -2,6 +2,7 @@
 import unittest
 from resistor import validateColorsList
 
+
 class TestValidateColorsList(unittest.TestCase):
     
     #VALID # of Bands and correct tolerance, multiplier, and digit values
@@ -34,11 +35,6 @@ class TestValidateColorsList(unittest.TestCase):
         self.assertTrue("limegreen is not a valid resistor color band" in str(error.exception))      
             
     #INVALID significant digit bands
-    
-    def testBandWithNoSignificantDigitBlack(self):
-        listOfColors = ["black", "red", "green", "black"]
-        with self.assertRaises(ValueError) as error: validateColorsList(listOfColors)
-        self.assertTrue("black does not contain a significant figure digit" in str(error.exception)) 
     
     def testBandWithNoSignificantDigitGold(self):
         listOfColors = ["gold", "red", "green", "black"]
@@ -83,5 +79,3 @@ class TestValidateColorsList(unittest.TestCase):
         listOfColors = ["brown", "red", "orange", "white"]
         with self.assertRaises(ValueError) as error: validateColorsList(listOfColors)
         self.assertTrue("white does not contain a tolerance value" in str(error.exception))
-        
-    

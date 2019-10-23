@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="decode_significant_figure_tests.py" name="decode_significant_figure_tests.TestDecodeSignificantFigures-20191023185800" skipped="0" tests="8" time="0.002" timestamp="2019-10-23T18:58:00">
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="13" name="testGetDigitsInOrderOf4BandResistor" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="7" name="testGetDigitsInOrderOf5BandResistor" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="16" name="testGetDigitsInReverseOrderOf4BandResistor" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="10" name="testGetDigitsInReverseOrderOf5BandResistor" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="25" name="testGetDigitsWithBlackBand4Bands" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="28" name="testGetDigitsWithBlackBand5Bands" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="22" name="testGetDigitsWithLeadingBlackBand4Bands" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="19" name="testGetDigitsWithLeadingBlackBand5Bands" time="0.000" timestamp="2019-10-23T18:58:00">
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

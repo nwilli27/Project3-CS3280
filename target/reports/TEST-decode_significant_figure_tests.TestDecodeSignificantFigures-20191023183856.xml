@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="8" file="decode_significant_figure_tests.py" name="decode_significant_figure_tests.TestDecodeSignificantFigures-20191023183856" skipped="0" tests="8" time="0.002" timestamp="2019-10-23T18:38:56">
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="13" name="testGetDigitsInOrderOf4BandResistor" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'56' != 56" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 14, in testGetDigitsInOrderOf4BandResistor
+    self.assertEquals("56", decodeSignificantFigures(["green", "blue", "green", "violet"]))
+AssertionError: '56' != 56
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="7" name="testGetDigitsInOrderOf5BandResistor" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'123' != 123" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 8, in testGetDigitsInOrderOf5BandResistor
+    self.assertEquals("123", decodeSignificantFigures(["brown", "red", "orange", "green", "violet"]))
+AssertionError: '123' != 123
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="16" name="testGetDigitsInReverseOrderOf4BandResistor" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'65' != 65" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 17, in testGetDigitsInReverseOrderOf4BandResistor
+    self.assertEquals("65", decodeSignificantFigures(["blue", "green", "green", "violet"]))
+AssertionError: '65' != 65
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="10" name="testGetDigitsInReverseOrderOf5BandResistor" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'321' != 321" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 11, in testGetDigitsInReverseOrderOf5BandResistor
+    self.assertEquals("321", decodeSignificantFigures(["orange", "red", "brown", "green", "violet"]))
+AssertionError: '321' != 321
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="25" name="testGetDigitsWithBlackBand4Bands" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'20' != 20" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 26, in testGetDigitsWithBlackBand4Bands
+    self.assertEquals("20", decodeSignificantFigures(["red", "black", "green", "violet"]))
+AssertionError: '20' != 20
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="28" name="testGetDigitsWithBlackBand5Bands" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'200' != 200" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 29, in testGetDigitsWithBlackBand5Bands
+    self.assertEquals("200", decodeSignificantFigures(["red", "black", "black", "green", "violet"]))
+AssertionError: '200' != 200
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="22" name="testGetDigitsWithLeadingBlackBand4Bands" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'2' != 2" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 23, in testGetDigitsWithLeadingBlackBand4Bands
+    self.assertEquals("2", decodeSignificantFigures(["black", "red", "green", "violet"]))
+AssertionError: '2' != 2
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="decode_significant_figure_tests.TestDecodeSignificantFigures" file="src/unittest/python/decode_significant_figure_tests.py" line="19" name="testGetDigitsWithLeadingBlackBand5Bands" time="0.000" timestamp="2019-10-23T18:38:56">
+		<failure message="'23' != 23" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/student/Downloads/NolanWilliamsProject2/src/unittest/python/decode_significant_figure_tests.py", line 20, in testGetDigitsWithLeadingBlackBand5Bands
+    self.assertEquals("23", decodeSignificantFigures(["black", "red", "orange", "green", "violet"]))
+AssertionError: '23' != 23
+]]>		</failure>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>
